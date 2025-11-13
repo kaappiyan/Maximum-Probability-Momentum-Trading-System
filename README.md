@@ -35,9 +35,11 @@ This tool is intended as a research/prototyping platform — not production trad
    .venv\Scripts\activate         # Windows
 
 2. **Install required packages**
+    ```bash
     pip install streamlit pandas numpy yfinance plotly requests beautifulsoup4 lxml ta
 
 3. **Run the app**
+    ```bash
     streamlit run mpts_app.py
 
 4. **browser will open http://localhost:8501**
