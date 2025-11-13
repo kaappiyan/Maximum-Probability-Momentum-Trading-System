@@ -7,12 +7,10 @@
 
 ## Project description
 
-MPTS is a prototype trading-tool that combines rule-based technical indicators, fundamental sanity checks, and a composite scoring engine to identify high-probability momentum candidates in NIFTY segments. It supports:
-- Constituents fetching (NSE API / CSV / fallback sources),
+MPTS is a prototype trading-tool that combines rule-based technical indicators, fundamental sanity checks, and a composite scoring engine to identify high-probability momentum candidates. It supports:
 - Uploading local snapshots,
 - Single-ticker search (chart, score, backtest),
-- Segment scanning for Top N candidates,
-- Simple serial backtesting with stop/target logic.
+- Segment scanning for Top N candidates
 
 This tool is intended as a research/prototyping platform — not production trading software.
 
